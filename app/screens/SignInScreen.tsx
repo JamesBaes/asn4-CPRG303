@@ -25,10 +25,10 @@ const SignInScreen = () => {
     const handleLogin = async (values: SignInValues) => {
       try {
             await login(values.email, values.password);
-            router.replace("/"); 
+            router.replace("./ProtectedPage"); 
       } catch (error) {
             console.error("Sign in error:", error);
-            router.replace("/");
+            router.replace("./FailedPage");
         }
     }
 

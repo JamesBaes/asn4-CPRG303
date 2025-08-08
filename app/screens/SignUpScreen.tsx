@@ -51,10 +51,10 @@ const SignUpScreen = () => {
         values.phoneNumber,
         values.password
       );
-      router.replace("/"); // Navigate to home or another screen after signup
+      router.replace("./ProtectedPage"); // Navigate to home or another screen after signup
     } catch (error) {
       console.error("Sign up error:", error);
-      router.navigate("/")
+      router.replace("./FailedPage")
     }
     
 

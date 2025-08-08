@@ -37,14 +37,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "FIREBASE_API_KEY": "AIzaSyB1RBUxdtZ8zEQLF6X5CRymh6_cH5eNTtw",
-      "FIREBASE_AUTH_DOMAIN": "assignment4--cprg303.firebaseapp.com",
-      "FIREBASE_PROJECT_ID": "assignment4--cprg303",
-      "FIREBASE_STORAGE_BUCKET": "assignment4--cprg303.appspot.com",
-      "FIREBASE_MESSAGING_SENDER_ID": "918094209480",
-      "FIREBASE_APP_ID": "1:918094209480:web:5e6c395e157e178da3a0fd"
     }
   }
 }

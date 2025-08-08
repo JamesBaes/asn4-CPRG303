@@ -52,10 +52,10 @@ const EmployeeForm = () => {
         values.address,
         values.startDate
       );
-      router.navigate("/");
+      router.replace("./ProtectedPage");
     } catch (error) {
       console.error("Add employee error:", error);
-      router.navigate("/");
+      router.replace("./");
       
     }
   }
